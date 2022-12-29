@@ -63,15 +63,15 @@ restoreBackUp(){
 echo "Copyright (c) 2022 Angelillo15 | angelillo15.es"
 echo "This program is free software: you can redistribute it and/or modify"
 echo ""
-echo "WhatsApp: https://whatsApp.com"
-echo "Tweet: https://twitter.com"
+echo "Discord: https://discord.angelillo15.es/"
+echo "Website: https://angelillo15.es/"
 echo ""
-echo "[1] Install Theme"
-echo "[2] Restore Backup"
-echo "[3] Repair Panel (Use If You Have An Error In The Theme Installation)"
+echo "[1] Install theme"
+echo "[2] Restore backup"
+echo "[3] Repair panel (use if you have an error in the theme installation)"
 echo "[4] Exit"
 
-read -p "Please Enter A Number: " choice
+read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     installThemeQuestion
